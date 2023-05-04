@@ -1,0 +1,50 @@
+h1{
+   color: indianred;
+   text-align: center;
+   margin-top: 50px;
+}
+
+h2{
+	font-size: 30px;
+	font-family: monospace;
+	border-style: inset;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	width: 30%;
+}
+
+table{
+	border: 1px solid black;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+th,td{
+	border: 1px solid black;
+	width:200px;
+	text-align: center;
+	font-size: 20px;
+}
+
+h3{
+	font-size: 30px;
+	font-family: monospace;
+	border-style: inset;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	width: 30%;
+	margin-top: 60px;
+}
+
+.lect40_1{
+	margin-top: 60px;
+}
+.c404_1{
+	float: left;
+	margin-left: 21%;
+}
+.t404_1{
+	margin-right: 24%;
+}

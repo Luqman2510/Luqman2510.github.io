@@ -1,0 +1,38 @@
+body{
+
+color: black;
+text-align: center;
+}
+.login-form{
+	background-color: lightpink;
+	width: 435px;
+	padding: 40px;
+	margin: auto;
+	height: 200px;
+}
+h1{
+	color: indianred;
+}
+
+table{
+
+margin-left:auto ;
+margin-right: auto;
+margin-bottom: auto;
+text-align: center;
+style:"width:400%";
+background-color: hotpink;
+
+}
+
+td,th{
+	padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 40px;
+}
+
+
+.psw{
+	color:black;
+}

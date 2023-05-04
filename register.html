@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="register.css">
+</head>
+<body background="background.jpg">
+
+<h1>Registration form</h1>
+
+
+
+
+
+
+<form action="/action_page.php" name="registration" class="registration-form" onsubmit="return formValidation()"style="border:1px solid #ccc">
+<table>
+<tr>
+<td><label for="fname"><b>First Name:</b></label></td>
+<td><input type="text" id="fname" name="fname" placeholder="First Name"></td>
+</tr>
+
+<tr>
+<td><label for="Lname"><b>Last Name:</b></label></td>
+<td><input type="text" id="Lname" name="Lname" placeholder="Last Name"></td>
+</tr>
+
+<tr>
+        <td><label for="gender"><b>Gender:</b></label></td>
+        <td>Male: <input type="radio" name="gender" value="male">
+          Female: <input type="radio" name="gender" value="female">
+</tr>
+
+<tr>
+<td><label for="adress"><b>Address:</b></label></td>
+<td><textarea name="address" id="address" placeholder="address 1"></textarea></td>
+</tr>
+<tr>
+<td></td>
+<td><textarea name="address" id="address" placeholder="address 2"></textarea></td>
+</tr>
+<tr>
+<td><label for="zip"><b>Zip Code:</b></label></td>
+<td><input type="text" id="zip" name="zip" value="" ></td>
+</tr>
+
+
+<tr>
+<td><label for="City"><b>City and Area:</b></label></td>
+<td><input list="City" name="City" placeholder="City and Area"></td>
+<datalist id="City">
+    <option value="Selangor">
+    <option value="Negeri Sembilan">
+    <option value="Kedah">
+    <option value="Perlis">
+    <option value="Perak">
+    <option value="Melaka">
+    <option value="Johor">
+    <option value="Kelantan">
+    <option value="Terengganu">
+    <option value="Pahang">
+    <option value="Sabah">
+    <option value="Sarawak">
+    <option value="Kuala Lumpur">
+    <option value="Labuan">
+    <option value="Pulau Pinang">
+      
+
+
+  </datalist>
+  
+ </tr>
+
+<tr>
+<td><label for="pnumber"><b>Phone Number:</b></label> </td>
+<td><input type="tel" id="pnumber" name="pnumber" pattern="[0-9]{3}-[0-9]{7}" placeholder="012-3456789" min="000-0000000" max="019-9999999" required ></td>
+</tr>
+
+
+
+<tr>
+<td></td>
+<td>  <button onclick="document.location='register1.html'">Next</button></td>
+</tr>
+</table>
+
+</form>
+</body
+
+</html>

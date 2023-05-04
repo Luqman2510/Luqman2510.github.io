@@ -1,0 +1,45 @@
+
+
+table{
+  style:"width:400%";
+  
+  background-color: hotpink;
+  border-spacing: "400px";
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+}
+.registration-form{
+  background-color: lightpink;
+  width: 435px;
+  padding: 40px;
+  margin: auto;
+  margin-top: 100px;
+
+}
+
+}
+th, td {
+  padding-top: 10px;
+  padding-bottom: 15px;
+  padding-left: 10px;
+  padding-right: 40px;
+  font-size: 15px;
+}
+.Mysub{
+  text-align: center;
+   margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  style: height:50px;
+  style: width:400px;
+}
+
+.cancelbtn{
+  text-align: center;
+  width: 50%;
+   margin-left: auto;
+  margin-right: auto;
+  margin-top: auto 
+  
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="register1.css">
+</head>
+<body background="background.jpg">
+
+
+
+
+
+<form action="/action_page.php" name="registration" class="registration-form" onsubmit="return formValidation()"style="border:1px solid #ccc">
+<table>
+<tr>
+<td><label for="email"><b>Email:</b></label></td>
+<td><input type="text" name="email" id="email" placeholder="your email"></td>
+</tr>
+
+
+<tr>
+<td><label for="edu"><b> Education Level:</b></label></td>
+<td>
+  <br><br>
+  <input type="checkbox" id="spm" name="spm" value="SPM">
+  <label for="spm"><b> SPM</b></label><br>
+  <input type="checkbox" id="diploma" name="diploma" value="Diploma">
+  <label for="diploma"><b> Diploma</b></label><br>
+  <input type="checkbox" id="degree" name="degree" value="Degree">
+  <label for="degree"><b> Degree</b></label><br>
+  <input type="checkbox" id="master" name="master" value="Master">
+  <label for="master"><b> Master</b></label><br>
+  <input type="checkbox" id="phd" name="phd" value="phd">
+  <label for="phd"><b> PHD</b></label>
+</td>
+</tr>
+
+<tr>
+  <td><label for="uname"><b>Username</b></label></td>
+  <td><input type="text" placeholder="Enter Username" name="uname" required></td>
+</tr>
+
+<tr>
+        <td><label for="password"><b>Password</b>:</label></td>
+        <td><input type="password" name="password" id="password"></td>
+</tr>
+<tr>
+  <td><label for="password"><b>Confirm Password</b>:</label></td>
+  <td><input type="password" placeholder="Confirm Password" id="confirm_password" required></td>
+</tr>
+
+</table>
+
+<div class="Mysub">
+  <button type="submit" style="height:35px;width:290px;text-align:center;">Submit</button>
+    <label>
+</div>
+
+<div class="cancelbtn">
+    <button type="button">Cancel</button>
+    <input type="reset" value="Reset">
+</div>
+</form>
+</body>
